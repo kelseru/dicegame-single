@@ -1,0 +1,108 @@
+.flexcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  border-style: solid;
+  width: fit-content;
+}
+
+.rows {
+  border-radius: 6%;
+}
+
+#header{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 26.5vw;
+  font-family: 'Merriweather';
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+#logo {
+  height: 35px;
+  width: 30px;
+  background-color: white;
+  border-radius: 6px;
+}
+  
+#gameArea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 4;
+  border-radius: 6px;
+  background-image: url(/img/wallpaper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+}
+
+#rollResult {
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}  
+
+#button {
+    background-color: rgb(177, 226, 229);
+    border-radius: 6px;
+    border: none;
+    color: slategrey;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 200px;
+    cursor: pointer;
+}
+
+#score {
+  background-color: rgb(177, 226, 229);
+  border-radius: 6px;
+  border: none;
+  color: slategrey;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+#footer {
+  flex: 1;
+  font-family: 'Merriweather';
+  font-size: 9px;
+  width: 300px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0px;
+}
+
+a {
+  color: slategrey;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.logo a:hover {
+  text-decoration: none;
+}
