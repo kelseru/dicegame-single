@@ -46,7 +46,7 @@
   align-items: center;
   flex: 4;
   border-radius: 6px;
-  background-image: url(/img/wallpaper.png);
+  background-image: url(./img/wallpaper.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 300px;
