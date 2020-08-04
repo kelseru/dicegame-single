@@ -27,7 +27,7 @@ button.addEventListener('click',() => {
     button.textContent = 'Roll';
     scoreTrack.rollResultNum = dice.roll();
     scoreTrack.calc();
-    rollResult.src = `./img/dice${scoreTrack.rollResultNum}.png`;
+    rollResult.src = `img/dice${scoreTrack.rollResultNum}.png`;
     score.textContent = scoreTrack.scoreNum;
     console.log(scoreTrack.scoreNum)
     if (scoreTrack.rollResultNum == 1) {
